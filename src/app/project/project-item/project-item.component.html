@@ -1,0 +1,18 @@
+<div class="image">
+    <img src="{{basehref + project.thumbnail}}">
+</div>
+<div class="content">
+    <a class="header" href="{{project.projectType.url}}">{{project.title}}</a>
+    <div class="meta">
+        <span *ngIf="project.projectType.source !== undefined && project.projectType.source !== null">
+            <i class="github icon"></i>{{project.projectType.source}}
+        </span>
+    </div>
+    <div class="description">
+        <p>{{project.descp}}</p>
+    </div>
+    <div class="extra">
+        <span *ngFor="let techologies of project.stack">{{techologies}}</span>
+    </div>
+</div>
+
