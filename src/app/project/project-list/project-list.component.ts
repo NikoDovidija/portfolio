@@ -8,7 +8,7 @@ import { projects } from '../../mock/projects.mock';
 })
 export class ProjectListComponent implements OnInit {
   private projectService: ProjectServiceService;
-  private projects;
+  projects;
   constructor(projectService: ProjectServiceService) {
     this.projectService = projectService;
     this.projects = this.projectService.getAllProjects();

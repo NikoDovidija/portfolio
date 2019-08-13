@@ -1,16 +1,19 @@
 <div class="image porfolio-image-holder">
     <a *ngIf="project.thumbnail;else imagealt" href="{{project.projectType.url}}">
-        <img class="ui fluid image rounded" src="{{basehref + project.thumbnail}}">
+        <img class="ui fluid image rounded" src="{{'./assets/images/' + project.thumbnail}}">
     </a>
     <ng-template #imagealt>
-        <img class="ui fluid small image rounded" src="{{basehref + 'image.png'}}">
+        <img class="ui fluid small image rounded" src="{{'./assets/images/' + 'image.png'}}">
     </ng-template>
 </div>
 <div class="ui divider hidden"></div>
 <div class="content">
-    <a class="header" href="{{project.projectType.url}}">
+    <a *ngIf="project.projectType.url;else nolink" class="header" href="{{project.projectType.url}}">
         <h3>{{project.title}}</h3>
     </a>
+    <ng-template #nolink>
+        <h3>{{project.title}}</h3>
+    </ng-template>
     <div class="meta">
         <span *ngIf="project.projectType.source !== undefined && project.projectType.source !== null">
             <i class="github icon"></i>{{project.projectType.source}}
@@ -20,7 +23,9 @@
         <p>{{project.descp}}</p>
     </div>
     <div class="extra">
-        <span *ngFor="let techologies of project.stack">{{techologies}}</span>
+        <span class="ui blue label" *ngFor="let techologies of project.stack">
+            {{techologies}}
+        </span>
     </div>
 </div>
 

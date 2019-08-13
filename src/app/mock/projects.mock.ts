@@ -52,7 +52,7 @@ export const projects: Project[] = [
         {
             type: PType.WEBAPP,
             source: SourceType.GITHUB,
-            url: 'https://visitmurskasobota.si/',
+            url: 'https://github.com/NikoDovidija/playlistr',
         }
     },
     {
@@ -60,12 +60,12 @@ export const projects: Project[] = [
         title: 'GMT mobile app',
         descp: 'Native applications for Andorid and IOS.',
         thumbnail: '',
-        stack: ['Java', 'Swift3','Laravel','Mysql'],
+        stack: ['Java', 'Swift3', 'Laravel', 'Mysql'],
         projectType:
         {
-            type: PType.WEBAPP,
-            source: SourceType.GITHUB,
-            url: 'https://visitmurskasobota.si/',
+            type: PType.MOBILEAPP,
+            source: SourceType.PRIVATEREPO,
+            url: '',
         }
     },
     {
@@ -78,7 +78,7 @@ export const projects: Project[] = [
         {
             type: PType.WEBAPP,
             source: SourceType.GITHUB,
-            url: 'https://visitmurskasobota.si/',
+            url: 'https://github.com/NikoDovidija/nestjs_crud_api',
         }
     },
 ]
