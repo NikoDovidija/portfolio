@@ -21,7 +21,7 @@ export const projects: Project[] = [
         title: 'Balanse',
         descp: 'A colaborative project for transaction management',
         thumbnail: 'balanse.png',
-        stack: [ 'Angular 8', '.NET core'],
+        stack: [ 'Angular 8', '.NET core','Mssql'],
         projectType:
             {
                 type: PType.WEBAPP,
@@ -34,7 +34,7 @@ export const projects: Project[] = [
         title: 'Visit Murska Sobota',
         descp: 'A tourism oriented web page made for a public institution',
         thumbnail: 'vms.png',
-        stack: ['Wordpress', 'Javascript'],
+        stack: ['Wordpress', 'Javascript','Mysql'],
         projectType:
         {
             type: PType.WEBAPP,
@@ -47,7 +47,7 @@ export const projects: Project[] = [
         title: 'Playlistr',
         descp: 'A Vue.js and Laravel based webapp for music playback',
         thumbnail: '',
-        stack: ['Vue.js', 'Laravel'],
+        stack: ['Vue.js', 'Laravel','Mysql'],
         projectType:
         {
             type: PType.WEBAPP,
@@ -60,7 +60,7 @@ export const projects: Project[] = [
         title: 'GMT mobile app',
         descp: 'Native applications for Andorid and IOS.',
         thumbnail: '',
-        stack: ['Java', 'Swift3'],
+        stack: ['Java', 'Swift3','Laravel','Mysql'],
         projectType:
         {
             type: PType.WEBAPP,
@@ -73,7 +73,7 @@ export const projects: Project[] = [
         title: 'Nest js api',
         descp: 'An example CRUD api with NESTJS',
         thumbnail: '',
-        stack: ['Node JS'],
+        stack: ['Node JS', 'Nest js', 'Typescript', 'MongoDb'],
         projectType:
         {
             type: PType.WEBAPP,
