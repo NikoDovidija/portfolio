@@ -86,7 +86,7 @@ export const projects: Project[] = [
         title: 'Express.js api',
         descp: 'An example of a CRUD api using Node.js and Express with MongoDb',
         thumbnail: '',
-        stack: ['Node JS', 'Nest js', 'Typescript', 'MongoDb'],
+        stack: ['Node JS', 'ES6', 'MongoDb', 'Mongoose'],
         projectType:
         {
             type: PType.WEBAPP,
