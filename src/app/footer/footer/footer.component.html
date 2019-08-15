@@ -1,0 +1,42 @@
+<div class="ui two stackable centered fluid menu" id="footer-menu">
+    <a class="item" suiPopup [popupTemplate]="popupTemplateCookies" popupTrigger="outsideClick">
+    <i class="dot circle outline icon"></i>
+        Cookies
+    </a>
+    <a class="item" suiPopup [popupTemplate]="popupTemplateData" popupTrigger="outsideClick">
+        <i class="database icon"></i>
+        Data handling
+    </a>
+</div>
+
+
+<ng-template let-popup #popupTemplateCookies>
+    <div class="header">Cookie notice</div>
+    <div class="content">
+        <p>
+            This website uses cookies to provide basic functionality. 
+            We do not send this data to third party subjects. If you
+            don't wish to use browser cookies, you can disable them
+            in your browser settings.
+        </p>
+    </div>
+</ng-template>
+
+<ng-template let-popup #popupTemplateData>
+    <div class="header">Data usage notice</div>
+    <div class="content">
+        <p>
+            This website uses some third-party analytics services,
+            which analyse behavioural patterns of users. 
+            This website is not and will not be used for commercial purposes,
+            is serves as a personal portfolio page. We want to clarify,
+            that we do not disclose, misuse or send this data to any other 
+            third party subject, it is merely for reasons of imporovement 
+            for the website:
+            <a>https://nikodovidija.github.io/portfolio/.</a>
+        </p>
+        <p>
+   
+        </p>
+    </div>
+</ng-template>
