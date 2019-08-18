@@ -10,7 +10,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ProjectModule } from './project/project.module';
 import { FooterModule } from './footer/footer.module';
 
-import { SuiModule } from 'ng2-semantic-ui';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { SuiModule } from 'ng2-semantic-ui';
     PageNotFoundComponent,
   ],
   imports: [
-    SuiModule,
     BrowserModule,
     AppRoutingModule,
     ProjectModule,

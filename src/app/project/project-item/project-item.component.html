@@ -1,9 +1,9 @@
 <div class="image porfolio-image-holder">
     <a *ngIf="project.thumbnail;else imagealt" href="{{project.projectType.url}}">
-        <img class="ui fluid image rounded" [class.hoverable]="project.thumbnail" src="{{'./assets/images/' + project.thumbnail}}">
+        <img appLazyload class="ui fluid image rounded" [class.hoverable]="project.thumbnail" src="{{'./assets/images/' + project.thumbnail}}">
     </a>
     <ng-template #imagealt>
-        <img class="ui fluid small image rounded" src="{{'./assets/images/' + 'image.png'}}">
+        <img appLazyload class="ui fluid small image rounded" src="{{'./assets/images/' + 'image.png'}}">
     </ng-template>
 </div>
 <div class="ui divider hidden"></div>

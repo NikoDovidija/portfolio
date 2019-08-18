@@ -21,6 +21,7 @@ export const projects: Project[] = [
         title: 'Balanse',
         descp: 'A colaborative project for transaction management',
         thumbnail: 'balanse.png',
+        thumbnailShow: false,
         stack: [ 'Angular 8', '.NET core', 'Mssql'],
         projectType:
             {
@@ -34,6 +35,7 @@ export const projects: Project[] = [
         title: 'Visit Murska Sobota',
         descp: 'A tourism oriented web page made for a public institution',
         thumbnail: 'vms.png',
+        thumbnailShow: false,
         stack: ['Wordpress', 'Javascript', 'Mysql'],
         projectType:
         {
@@ -47,6 +49,7 @@ export const projects: Project[] = [
         title: 'Playlistr',
         descp: 'A Vue.js and Laravel based webapp for music playback',
         thumbnail: '',
+        thumbnailShow: false,
         stack: ['Vue.js', 'Laravel', 'Mysql'],
         projectType:
         {
@@ -60,6 +63,7 @@ export const projects: Project[] = [
         title: 'GMT mobile app',
         descp: 'Native applications for Andorid and IOS.',
         thumbnail: '',
+        thumbnailShow: false,
         stack: ['Java', 'Swift3', 'Laravel', 'Mysql'],
         projectType:
         {
@@ -73,6 +77,7 @@ export const projects: Project[] = [
         title: 'Nest.js api',
         descp: 'An example CRUD api with NESTJS framework, Node.js and MongoDb',
         thumbnail: '',
+        thumbnailShow: false,
         stack: ['Node JS', 'Nest js', 'Typescript', 'MongoDb'],
         projectType:
         {
@@ -86,6 +91,7 @@ export const projects: Project[] = [
         title: 'Express.js api',
         descp: 'An example of a CRUD api using Node.js and Express with MongoDb',
         thumbnail: '',
+        thumbnailShow: false,
         stack: ['Node JS', 'ES6', 'MongoDb', 'Mongoose'],
         projectType:
         {
@@ -99,6 +105,7 @@ export const projects: Project[] = [
         title: '.NET CORE webapp',
         descp: 'A .NET core webapp project with basic boostrap frontend',
         thumbnail: '',
+        thumbnailShow: false,
         stack: ['.NET CORE', 'Boostrap', 'C#', 'MSSQL'],
         projectType:
         {

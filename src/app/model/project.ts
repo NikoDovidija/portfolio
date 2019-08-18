@@ -5,6 +5,7 @@ export class Project {
     title: string;
     descp: string;
     thumbnail: string;
+    thumbnailShow: boolean;
     projectType: ProjectType;
     stack: string[];
 }
